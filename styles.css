@@ -10,25 +10,15 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000000;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 20px;
 }
 
 p,
 a,
 li {
   font-family: "Montserrat", sans-serif;
-}
-
-a {
-  color: #ff69b4;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #000000;
-  text-decoration: underline;
 }
 
 .container {
@@ -276,7 +266,7 @@ html {
 }
 
 .submit-button {
-  background-color: #00c853; /* Vibrant Green */
+  background-color: #00c853; 
   color: #ffffff;
   padding: 15px;
   border: 4px solid #000000;
