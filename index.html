@@ -29,9 +29,9 @@
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h2>Need Heading</h2>
-        <p>Add some info here</p>
-        <a href="#get-started" class="cta-button">Get Started</a>
+        <h2>Get to know me</h2>
+        <!-- <p></p>
+        <a href="#get-started" class="cta-button">Get Started</a> -->
       </div>
     </section>
 
@@ -40,8 +40,8 @@
       <div class="container">
         <div class="about-content">
           <img
-            src="path-to-your-image.jpg"
-            alt="About Image"
+            src="/assets/pics/meAndRamen.jpg"
+            alt="me and ramen"
             class="about-image"
           />
           <div class="about-text">
@@ -85,7 +85,7 @@
         <h3>Experience</h3>
         <div class="experience-grid">
           <div class="C-card">
-            <h4>Experience</h4>
+            <h4></h4>
             <p>More about my history</p>
           </div>
           <div class="experience-card">
@@ -117,7 +117,8 @@
             <p>
               <a
                 href="https://drive.google.com/file/d/1QrRPCsyN1JSn0vGQ0orYiCBetvmQuW8U/view?usp=sharing"
-                >My Resume</a
+                class="cta-button"
+                >Resume</a
               >
             </p>
           </div>
@@ -131,10 +132,18 @@
         <h3>My Portfolio</h3>
         <div class="portfolio-grid">
           <div class="portfolio-item">
-            <img src="path-to-portfolio1.jpg" alt="Portfolio 1" />
+            <p>Artwork</p>
+            <img
+              src="/assets/pics/Artwork Portfolio.jpg"
+              alt="Artwork Portfolio"
+            />
           </div>
           <div class="portfolio-item">
-            <img src="path-to-portfolio2.jpg" alt="Portfolio 2" />
+            <p>Software</p>
+            <img
+              src="/assets/pics/GameDev Portfolio.jpg"
+              alt="Game Dev Portfolio"
+            />
           </div>
           <!-- Add more portfolio items as needed -->
         </div>
@@ -161,9 +170,34 @@
     <footer class="site-footer">
       <div class="container">
         <p>&copy; JVelez FD. All rights reserved.</p>
-        <div class="footer-links">
-          <a href="#privacy">Privacy Policy</a>
-          <a href="#terms">Terms of Service</a>
+        <button id="openModal" class="cta-button1">Privacy Policy</button>
+        <div id="privacyModal" class="modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Privacy Policy</h2>
+            <p>
+              Information Collection <br />
+              I collect personal information such as your name, email address,
+              and phone number when you fill out the contact form on this page.
+              Only used to reply to inquiries. <br />
+              <br />
+              Use of Information <br />
+              The information collected is used solely to respond to your
+              inquiries, job applications, or professional networking requests.
+              We will not use your information for any other purposes without
+              your consent. <br />
+              <br />
+              Data Protection I take the security of your personal information
+              seriously and implement measures such as encryption and secure
+              servers to protect it. Access to your information is restricted to
+              authorized personnel only. <br />
+              <br />
+              Third-Party Sharing <br />
+              I do not share your personal information with third parties unless
+              required by law or with your explicit consent. Any third-party
+              services we use are also required to protect your data.
+            </p>
+          </div>
         </div>
       </div>
     </footer>

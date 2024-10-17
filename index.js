@@ -1,7 +1,21 @@
 "strict mode";
 
+document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("privacyModal");
+  const openModalButton = document.getElementById("openModal");
+  const closeButton = document.getElementsByClassName("close")[0];
 
-document.querySelector('.nav-toggle').addEventListener('click', function() {
-    document.querySelector('.nav-menu').classList.toggle('active');
-  });
-  
+  openModalButton.onclick = function () {
+    modal.style.display = "block";
+  };
+
+  closeButton.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
+});
